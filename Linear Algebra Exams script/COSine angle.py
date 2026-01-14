@@ -1,3 +1,5 @@
+"""jeg tror theta rad er den jeg skal kigge på her"""
+
 from __future__ import annotations
 import sys
 
