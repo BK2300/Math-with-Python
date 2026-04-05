@@ -1,0 +1,16 @@
+algorithm,params,n_clusters_found,noise_points,silhouette,ari_vs_ground_truth,plot_file,html_file
+KMeans,"{""k"": 31}",31,0,0.5755171578512023,0.9535594148380196,KMeans_k-31.png,KMeans_k-31.html
+Agglomerative,"{""linkage"": ""complete"", ""n_clusters"": 31}",31,0,0.5636664592980722,0.9237900239742176,Agglomerative_linkage-complete_n_clusters-31.png,Agglomerative_linkage-complete_n_clusters-31.html
+Agglomerative,"{""linkage"": ""ward"", ""n_clusters"": 31}",31,0,0.5640591525907602,0.9201353639476055,Agglomerative_linkage-ward_n_clusters-31.png,Agglomerative_linkage-ward_n_clusters-31.html
+KMeans,"{""k"": 35}",35,0,0.5424506139546011,0.9190473571198781,KMeans_k-35.png,KMeans_k-35.html
+Agglomerative,"{""linkage"": ""average"", ""n_clusters"": 31}",31,0,0.5622700040906442,0.9068918288461281,Agglomerative_linkage-average_n_clusters-31.png,Agglomerative_linkage-average_n_clusters-31.html
+Agglomerative,"{""linkage"": ""complete"", ""n_clusters"": 35}",35,0,0.5228784784605212,0.9030503757653312,Agglomerative_linkage-complete_n_clusters-35.png,Agglomerative_linkage-complete_n_clusters-35.html
+Agglomerative,"{""linkage"": ""complete"", ""n_clusters"": 25}",25,0,0.5065958315596818,0.7818911513580874,Agglomerative_linkage-complete_n_clusters-25.png,Agglomerative_linkage-complete_n_clusters-25.html
+KMeans,"{""k"": 25}",25,0,0.5254262132510172,0.7742746508690362,KMeans_k-25.png,KMeans_k-25.html
+DBSCAN,"{""eps"": 0.5, ""min_samples"": 5}",26,213,0.36498334245948244,0.570207491717939,DBSCAN_eps-0_5_min_samples-5.png,DBSCAN_eps-0_5_min_samples-5.html
+DBSCAN,"{""eps"": 0.4, ""min_samples"": 5}",42,452,0.4489327851457516,0.5443350675721765,DBSCAN_eps-0_4_min_samples-5.png,DBSCAN_eps-0_4_min_samples-5.html
+DBSCAN,"{""eps"": 0.6, ""min_samples"": 5}",15,107,0.38167683213529935,0.350242190355724,DBSCAN_eps-0_6_min_samples-5.png,DBSCAN_eps-0_6_min_samples-5.html
+Agglomerative,"{""linkage"": ""single"", ""n_clusters"": 31}",31,0,-0.3896440188293575,0.1739021944675327,Agglomerative_linkage-single_n_clusters-31.png,Agglomerative_linkage-single_n_clusters-31.html
+DBSCAN,"{""eps"": 0.8, ""min_samples"": 5}",8,23,0.1430295281215209,0.1738415954782622,DBSCAN_eps-0_8_min_samples-5.png,DBSCAN_eps-0_8_min_samples-5.html
+DBSCAN,"{""eps"": 0.3, ""min_samples"": 5}",85,1011,0.34588236923946847,0.13910081813948824,DBSCAN_eps-0_3_min_samples-5.png,DBSCAN_eps-0_3_min_samples-5.html
+DBSCAN,"{""eps"": 1.0, ""min_samples"": 5}",5,8,0.02422410299096563,0.10859778402705811,DBSCAN_eps-1_0_min_samples-5.png,DBSCAN_eps-1_0_min_samples-5.html
