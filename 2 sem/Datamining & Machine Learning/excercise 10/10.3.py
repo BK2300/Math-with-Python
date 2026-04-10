@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import precision_score, recall_score, f1_score
 from sklearn.metrics import roc_curve, roc_auc_score
 
-# Data from the exercise
 data = {
     "Object": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"],
     "Label":  ["-",  "-",  "-",  "-",  "+",  "-",  "-",  "-",  "+",  "-"],
